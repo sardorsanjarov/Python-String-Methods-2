@@ -1,6 +1,4 @@
-hafta = "Bugun {Dushanba} kuni, dars soat {vaqt} da."
+day = input("Kun: ")
+time = int(input("Soat: "))
 
-Dushanba = input()
-vaqt = int(input())
-
-print(hafta.format(Dushanba=Dushanba , vaqt=vaqt))
+print("Bugun {} kuni, dars soat {} da.".format(day, time))

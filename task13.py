@@ -1,6 +1,3 @@
-matn = input("Matnni kiriting: ")
-belgi = input("Qaysi belgini sanaymiz: ")
+text = input("Matn: ")
 
-topamz = matn.count(belgi)
-
-print(topamz)
+print(text.count("@"))

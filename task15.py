@@ -1,6 +1,3 @@
-matn = input("matn kiriting: ")
-nuqta = input("qaysi harfni topamz: ")
+text = input("Matn: ")
 
-natija = matn.count(nuqta)
-
-print(natija)
+print(text.count("."))

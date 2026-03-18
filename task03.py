@@ -1,6 +1,4 @@
-nom = input("Fayl nomini kiriting: ")
-turi = input("Fayl turini (kengaytmasini) kiriting: ")
+day = input('Kun: ')
+time = int(input('Soat: '))
 
-natija = "Fayl: {}.{}".format(nom, turi)
-
-print(natija)
+print("bugun {} kuni, dars soat {} da.".format(day, time))

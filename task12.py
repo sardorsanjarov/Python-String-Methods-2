@@ -1,6 +1,3 @@
-matn = input("Matnni kiriting: ")
-belgi = input("Qaysi belgini sanaymiz: ")
+text = input("Matn: ")
 
-sanoq = matn.count(belgi)
-
-print(sanoq)
+print(text.count(" "))

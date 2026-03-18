@@ -1,6 +1,3 @@
-matn = input("Matnni kiriting: ")
-soz = input("Qidirilayotgan so‘zni kiriting: ")
+text = input("Matn: ")
 
-indeks = matn.index(soz)
-
-print(indeks)
+print(text.index("Python"))

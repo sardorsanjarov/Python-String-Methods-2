@@ -1,9 +1,3 @@
-parol = input("parol kiriting:  ")
+password = input("Parol: ")
 
-print(parol.isdigit())
-
-if parol.isdigit():
-    print("parol qabul qilindi .")
-else:
-    print(" parol faqat sonlardan iborat bolishi kk.")
-
+print(password.isdigit())

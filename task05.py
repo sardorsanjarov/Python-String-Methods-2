@@ -1,6 +1,4 @@
-a = int(input("Birinchi sonni kiriting: "))
-b = int(input("Ikkinchi sonni kiriting: "))
+a = int(input("1-son: "))
+b = int(input("2-son: "))
 
-natija = a + b
-
-print("{} + {} = {}".format(a, b, natija))
+print("{} + {} = {}".format(a, b, a + b))

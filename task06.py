@@ -1,6 +1,3 @@
-email = input("Email manzilini kiriting: ")
-belgi = input("Qaysi belgini topmoqchisiz: ")
+email = input("Email: ")
 
-indeks = email.index(belgi)
-
-print(indeks)
+print(email.index("@"))

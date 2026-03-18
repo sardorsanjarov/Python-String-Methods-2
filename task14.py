@@ -1,6 +1,3 @@
-matn = input("matn kiriting: ")
-belgi = input("qaysi harfni topamz: ")
+text = input("Matn: ")
 
-natija = matn.count(belgi)
-
-print(natija)
+print(text.count("py"))

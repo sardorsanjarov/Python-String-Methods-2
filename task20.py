@@ -1,3 +1,3 @@
-soz = input("soz kiriting: ")
+title = input("Sarlavha: ")
 
-print(soz.title())
+print(title.title())

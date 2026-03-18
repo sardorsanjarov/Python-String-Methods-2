@@ -1,6 +1,4 @@
-templete = ' {meva} mahsulot narxi {narx}.'
+product = input('Maxsulot: ')
+price = float(input('Narx: '))
 
-meva = input()
-narx = float(input())
-
-print(templete.format(meva=meva, narx=narx))
+print("{} mahsulot narxi ${}".format(product, price))

@@ -1,7 +1,3 @@
-matn = input("Matnni kiriting: ")
-soz = input("Qidirilayotgan so‘zni kiriting: ")
-boshlanish = int(input("Qidirishni qayerdan boshlaymiz (indeks): "))
+text = input("Matn: ")
 
-indeks = matn.find(soz, boshlanish)
-
-print(indeks)
+print(text.find("salom", 2))

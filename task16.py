@@ -1,3 +1,3 @@
-ism = "Diyorbek"
+name = input("Ism: ")
 
-print(ism.isalpha())
+print(name.isalpha())
